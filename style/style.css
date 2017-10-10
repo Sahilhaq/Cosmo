@@ -1,0 +1,73 @@
+body {
+	color: #555;
+}
+
+.wrapper {
+	margin-top: 20px;
+}
+
+.app-name {
+	cursor: pointer;
+}
+
+.li-heading {
+	text-align: center;
+	color: #555;
+}
+
+.search-bar {
+	margin-top: 10px;
+	padding: 5px;
+	width: 70%;
+}
+
+.details {
+	margin-top: 20px;
+	border: 1px solid #c7c7c7;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.details div:first-child {
+	margin-bottom: 10px;
+}
+
+.details div:last-child { font-size: .90rem; }
+
+.list-group-item {
+	cursor: pointer;
+	transition: .3s all;
+}
+
+.list-group-item:hover { background: #f0f0f0}
+
+.b-margin {
+	margin-bottom: 50px;
+}
+
+.btn-add-new {
+	float: right;
+}
+
+.top-margin {
+	margin-top: 20px;
+}
+
+.top-margin-large {
+	margin-top: 40px;
+}
+
+.left-margin {
+	margin-left: 10px; 
+}
+
+textarea { min-height: 150px;}
+
+.has-danger input {
+	border: 1px solid red;
+}
+
+.text-help {
+	font-size: .90rem;
+	color: red;
+}
